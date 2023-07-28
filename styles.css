@@ -1,8 +1,9 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: black;
-    color: white;
+    color: #F9F1F0;
     text-align: center;
+    box-sizing: content-box;
+    background-color: #F79489;
 }
 
 img {
@@ -10,12 +11,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    opacity: 0.6;
 }
 
-.pizza-image {
-    opacity: .8;
-}
 
 ul {
     text-align: center;
@@ -29,4 +26,32 @@ ol {
 
 .homepage {
     font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
 }
+
+
+.header {
+    padding: 30px;
+    background-color: #F8AFA6;
+    margin: -20px -20px 30px;
+    text-align: center;
+}
+.header h1 {
+    display: inline-block;
+    background-color: #F8AFA6;
+}
+
+div.list {
+    padding: 30px;
+    background-color: #F8AFA6;
+    margin: auto -20px;
+    text-align: center;
+}
+
+.homepage li {
+    padding: 15px 36.5px;
+}
+
+
